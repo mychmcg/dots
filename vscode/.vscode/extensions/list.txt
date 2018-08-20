@@ -1,0 +1,13 @@
+aaron-bond.better-comments
+CoenraadS.bracket-pair-colorizer
+dbaeumer.vscode-eslint
+dsznajder.es7-react-js-snippets
+eamodio.gitlens
+eg2.tslint
+esbenp.prettier-vscode
+kumar-harsh.graphql-for-vscode
+mikestead.dotenv
+patbenatar.advanced-new-file
+PeterJausovec.vscode-docker
+robertohuertasm.vscode-icons
+romanrei.material-dark

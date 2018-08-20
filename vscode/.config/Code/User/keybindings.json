@@ -1,0 +1,45 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "ctrl+o",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "-workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+o",
+    "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "editor.emmet.action.expandAbbreviation",
+    "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+  },
+  {
+    "key": "tab",
+    "command": "-editor.emmet.action.expandAbbreviation",
+    "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+=",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+n", // "cmd+n" on mac
+    "command": "extension.advancedNewFile"
+  }
+]
