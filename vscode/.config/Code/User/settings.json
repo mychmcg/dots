@@ -1,28 +1,62 @@
 {
-  "terminal.integrated.shell.linux": "/usr/bin/fish",
-  "editor.fontFamily": "'FuraCode Nerd Font Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontFamily": "'Fixedsys Excelsior','FuraCode Nerd Font Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.cursorStyle": "line-thin",
   "editor.fontLigatures": true,
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.fontFamily": "'FuraCode Nerd Font Mono'",
+  "terminal.integrated.shell.linux": "/usr/bin/fish",
+  "terminal.integrated.fontFamily": "'Fixedsys Excelsior Mono'",
   "terminal.external.linuxExec": "kitty",
   "window.zoomLevel": 0,
   "explorer.confirmDragAndDrop": false,
-  "editor.formatOnSave": true,
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
   "vsicons.dontShowNewVersionMessage": true,
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "editor.minimap.enabled": false,
   "editor.highlightActiveIndentGuide": false,
   "editor.renderIndentGuides": false,
   "zenMode.fullScreen": false,
+  "zenMode.centerLayout": false,
   "window.menuBarVisibility": "toggle",
+  "editor.hideCursorInOverviewRuler": true,
   "workbench.colorCustomizations": {
-    "editorGroup.border": "#1e1e1e",
-    "panel.border": "#1e1e1e",
-    "editorOverviewRuler.border": "#1e1e1e"
+    "editorGroup.border": "#1d252c",
+    "panel.border": "#1d252c",
+    "editorOverviewRuler.border": "#1d252c00",
+    "scrollbar.shadow": "#1d252c",
+    "scrollbarSlider.background": "#1d252c00",
+    "editorCursor.background": "#ff007b",
+    "editorCursor.foreground": "#ff007b"
   },
-  "workbench.colorTheme": "Monokai Dimmed"
+  "workbench.colorTheme": "Primal",
+  "html.format.wrapLineLength": 80,
+  "editor.wordWrap": "off",
+  "elm.includeParamsInUserAutocomplete": true,
+  "elm.includeUserFunctionDocumentation": true,
+  "elm.formatCommand": "elm-format",
+  "[elm]": {
+    "editor.formatOnSave": true
+  },
+  "bracketPairColorizer.showBracketsInGutter": true,
+  "bracketPairColorizer.showVerticalScopeLine": false,
+  "bracketPairColorizer.showHorizontalScopeLine": false,
+  "eslint.packageManager": "yarn",
+  "editor.formatOnSave": true,
+  "workbench.sideBar.location": "left",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "bracketPairColorizer.excludedLanguages": [],
+  "bracketPairColorizer.colorMode": "Independent",
+  "bracketPairColorizer.independentPairColors": [
+    ["()", ["#62737f", "Orchid", "LightSkyBlue", "Gold"], "Red"],
+    ["[]", ["#62737f", "Orchid", "LightSkyBlue", "Gold"], "Red"],
+    ["{}", ["#62737f", "Orchid", "LightSkyBlue", "Gold"], "Red"],
+    [["<", "</"], ["#40848E"], "Red"],
+    [["<", "/>"], ["#40848E"], "Red"]
+  ],
+  "editor.fontSize": 16,
+  "terminal.integrated.lineHeight": 0,
+  "editor.overviewRulerBorder": false,
+  "terminal.integrated.fontSize": 16,
+  "breadcrumbs.enabled": true
 }
