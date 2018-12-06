@@ -26,8 +26,8 @@
     "editorOverviewRuler.border": "#1d252c00",
     "scrollbar.shadow": "#1d252c",
     "scrollbarSlider.background": "#1d252c00",
-    "editorCursor.background": "#ff007b",
-    "editorCursor.foreground": "#ff007b"
+    "editorCursor.background": "#bd6efd",
+    "editorCursor.foreground": "#bd6efd"
   },
   "workbench.colorTheme": "Primal",
   "html.format.wrapLineLength": 80,
@@ -58,5 +58,6 @@
   "terminal.integrated.lineHeight": 0,
   "editor.overviewRulerBorder": false,
   "terminal.integrated.fontSize": 16,
-  "breadcrumbs.enabled": true
+  "breadcrumbs.enabled": true,
+  "editor.cursorWidth": 5
 }
