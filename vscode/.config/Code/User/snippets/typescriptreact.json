@@ -29,11 +29,18 @@
     "body": [
       "import React from 'react'",
       "",
-      "export default ($1) => {",
+      "const $1 = ($2) => {",
       "\t$2",
       "\t\treturn ($3);",
-      "};"
+      "};",
+      "",
+      "export default $1;"
     ],
     "description": "Typescript React PureComponent"
+  },
+  "UseState Hook": {
+    "prefix": "ush",
+    "body": ["const [$1$3, set$2$3] = useState($4);$5"],
+    "description": "React useState Hook"
   }
 }
